@@ -1,0 +1,57 @@
+
+
+ body{
+     background-image:url("Background2.avif");
+     background-size: cover;
+ }
+
+
+ .projects {
+    margin-left:25%;
+    width:40%;
+    height:70%;
+
+    display:flex;
+    flex-direction:column;
+    border-radius:20px;
+    background-color:white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+
+ }
+
+ .project {
+   padding-left:10%;
+    margin-top: 10px;
+    border:solid;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+ }
+ 
+ .projectTitle{
+ }
+
+ .addproject{
+   margin-top: 20px;
+   margin-left:70%;
+   border-radius: 50%;
+ }
+
+ .addproject:hover{
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+ }
+
+ .title1{
+   align-self: center;
+   text-decoration: underline;
+   font-family:"Lucida Console", "Courier New", monospace;
+
+ }
+
+ .profile {
+   border:solid;
+   margin-top:2%;
+   margin-left:90%;
+ }
